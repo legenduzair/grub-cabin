@@ -3,12 +3,57 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--color-black);
+    background-color: #C05735;
     padding: 1rem 2rem;
 }
 
-.app__navbar-logo {
+.app__navbar-title {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.app__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.app__navbar-links li {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.navbar-links a:hover {
+    color: black;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.app__navbar-login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.app__navbar-login a {
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: .5s ease;
+    color: white;
+}
+
+.app__navbar-login a:hover {
+    color: black;
+}
+
+.app__navbar-login div {
+    width: 1px;
+    height: 30px;
+    background-color: grey;
 }
