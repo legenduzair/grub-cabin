@@ -8,5 +8,16 @@
     letter-spacing: 0.04em;
     text-transform: capitalize;
     line-height: 117px;
-    font-size: 90px;
+    font-size: 50px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.header__p {
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.app__wrapper_img img {
+    width: 80%;
+    border-radius: 50px;
 }

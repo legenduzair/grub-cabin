@@ -11,6 +11,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
 }
 
 .app__navbar-links {
@@ -19,6 +21,7 @@
     justify-content: center;
     align-items: center;
     list-style: none;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .app__navbar-links li {
@@ -46,6 +49,7 @@
     text-decoration: none;
     transition: .5s ease;
     color: white;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .app__navbar-login a:hover {
@@ -93,6 +97,7 @@
     color: white;
     font-size: 2rem;
     text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .app__navbar-smallscreen_links li:hover {
