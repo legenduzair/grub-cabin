@@ -10,7 +10,7 @@
 
 .specialMenu-title {
     font-family: 'Cormorant Garamond', serif;
-    color: white;
+    color: #F0A202;
 }
 
 .app__specialMenu-menu {
@@ -21,13 +21,21 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: row;
+    gap: 50px;
+}
+
+.app__specialMenu-menu section {
+    width: 1px;
+    height: 470px;
+    background-color: grey;
+    margin: 0 5rem;
 }
 
 .app__specialMenu-menu_heading {
     color: white;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 600;
-    font-size: 45px;
+    font-size: 28px;
     line-height: 58.5px;
     letter-spacing: 0.04em;
 }
@@ -52,7 +60,30 @@
 .app__specialMenu_menu_items {
     display: flex;
     flex-direction: column;
-
+    text-align: center;
     margin: 2rem 0;
     width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .app__specialMenu-menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 0;
+    }
+    .app__specialMenu-menu section {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__specialMenu-menu_img {
+        width: 100%;
+    }
+
+    .app__specialMenu-menu_heading {
+        font-size: 35px;
+        line-height: 48.5px;
+    }
 }
