@@ -1,0 +1,69 @@
+.app__aboutus {
+    position: relative;
+}
+
+.app__aboutus-content {
+    width: 100%;
+    z-index: 2;
+}
+
+.app__aboutus-content_about {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: right;
+}
+
+.app__aboutus-content_knife {
+    margin: 2rem 4rem;
+}
+
+.app__aboutus-content_knife img {
+    height: 910px;
+}
+
+.aboutus-title {
+    font-size: 50px;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.aboutus-p {
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.app__aboutus-content_history {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: left;
+}
+
+/* Tablet & Mobile Styling */
+@media screen and (max-width: 2000px) {
+    .app__aboutus-content_knife img {
+        height: 800px;
+    }
+
+    .aboutus-p {
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .app__aboutus {
+        flex-direction: column;
+    }
+
+    .app__aboutus-content_knife {
+        margin: 4rem 0;
+    }
+}
