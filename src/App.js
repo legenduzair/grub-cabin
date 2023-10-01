@@ -3,6 +3,9 @@ import Header from './components/Header/Header'
 import Navbar from './components/Navbar/Navbar'
 import AboutUs from './components/AboutUs/AboutUs'
 import SpecialMenu from './components/SpecialMenu/SpecialMenu'
+import Chef from './components/Chef/Chef'
+import Intro from './components/Intro/Intro'
+
 import './App.css'
 
 const App = () => {
@@ -12,6 +15,8 @@ const App = () => {
       <Header />
       <AboutUs />
       <SpecialMenu />
+      <Chef />
+      <Intro />
     </>
   )
 }
