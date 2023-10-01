@@ -9,7 +9,7 @@ const AboutUs = () => {
         <div className="app__aboutus-content_about">
           <h1 className='aboutus-title'>About Us</h1>
           <p className='aboutus-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
-          <button type="button" className="custom__button">Know More</button>
+          <button type="button" className="custom__button">Know Moree</button>
         </div>
       </div>
 
