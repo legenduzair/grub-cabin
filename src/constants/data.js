@@ -24,4 +24,27 @@ const steaks = [
     }
 ]
 
-export default {burgers, steaks};
+const reviews = [
+    {
+        excerpt: 'Outstanding Flavours of Food!',
+        copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.',
+        author: 'Nabil Ahmed'
+    },
+    {
+        excerpt: 'Best Burgers & Steaks in the North West!',
+        copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.',
+        author: 'Callum Johnson'
+    },
+    {
+        excerpt: 'Amazing Service & Hospitality! Always Feel Welcome',
+        copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.',
+        author: 'Zahra Ali'
+    },
+    {
+        excerpt: 'The Food Here is Simply Divine! Every Bite is a Burst of Flavor And a Culinary Delight.',
+        copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.',
+        author: 'Sarah Anderson'
+    }
+]
+
+export default {burgers, steaks, reviews};
