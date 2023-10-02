@@ -7,7 +7,7 @@ import './Reviews.css'
 
 const Reviews = () => {
   return (
-    <div className='app__bg flex__center section__padding awards-outer' id='awards'>
+    <div className='app__bg flex__center section__padding awards-outer' id='testimony'>
         <div className="app__wrapper_info awards-inner">
             <SubHeading title="Testimony" />
             <h1 className='awards-title'>Customer Reviews</h1>
