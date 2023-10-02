@@ -39,3 +39,21 @@
     font-family: 'IBM Plex Mono', monospace;
     color: #F0A202;
 }
+
+@media (max-width: 975px) {
+    .app__reviews-inner_reviews {
+        grid-template-columns: auto ;
+    }
+}
+
+@media (max-width: 460px) {
+    .app__reviews-inner_review {
+        padding: unset;
+    }
+    .awards-title {
+        font-size: 32px;
+    }
+    .awards-inner {
+        min-height: 35vh;
+    }
+}
