@@ -1,7 +1,6 @@
 import React from 'react'
 import SubHeading from '../Subheading/SubHeading';
 import data from '../../constants/data';
-import images from '../../constants/images'
 
 import './Reviews.css'
 
