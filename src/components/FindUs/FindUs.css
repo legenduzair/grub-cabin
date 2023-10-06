@@ -1,0 +1,19 @@
+.findus-title {
+    font-size: 50px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #F0A202;
+    font-weight: 700;
+}
+
+.findus-p {
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.opening-hours {
+    margin: 3rem 0;
+    font-family: 'Cormorant Garamond', serif;
+    color: #F0A202;
+    font-weight: 700;
+    font-size: 25px;
+}

@@ -7,6 +7,7 @@ import Chef from './components/Chef/Chef'
 import Intro from './components/Intro/Intro'
 import Reviews from './components/Reviews/Reviews'
 import Gallery from './components/Gallery/Gallery'
+import FindUs from './components/FindUs/FindUs'
 
 import './App.css'
 
@@ -21,6 +22,7 @@ const App = () => {
       <Intro />
       <Reviews />
       <Gallery />
+      <FindUs />
     </>
   )
 }

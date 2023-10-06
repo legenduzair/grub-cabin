@@ -7,6 +7,7 @@ import gallery02 from '../assets/gallery-02.jpg'
 import gallery03 from '../assets/gallery-03.jpg'
 import gallery04 from '../assets/gallery-04.jpg'
 import gallery05 from '../assets/gallery-05.jpg'
+import milkshake from '../assets/milkshake.jpg'
 
 
 export default {
@@ -18,5 +19,6 @@ export default {
     gallery02,
     gallery03,
     gallery04,
-    gallery05
+    gallery05,
+    milkshake
 };
