@@ -1,6 +1,5 @@
 import React from 'react'
 import SubHeading from '../Subheading/SubHeading';
-import data from '../../constants/data';
 import images from '../../constants/images';
 
 import './FindUs.css'
@@ -12,7 +11,7 @@ const FindUs = () => {
             <SubHeading title='Contact' />
             <h1 className="findus-title">Find Us</h1>
             <div className="app__wrapper-content">
-                <p className='findus-p'>120 Ash Lawns, Bolton, BL1 4PD, England</p>
+                <p className='findus-p'>17 Essingdon Street, Bolton, BL3 6TS, England</p>
                 <p className='opening-hours'>Opening Hours</p>
                 <p className='findus-p'>Mon - Fri: 5pm - 12am</p>
                 <p className='findus-p'>Sat - Sun: 3pm - 2am</p>
