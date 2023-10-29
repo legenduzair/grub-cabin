@@ -8,6 +8,7 @@ import Intro from './components/Intro/Intro'
 import Reviews from './components/Reviews/Reviews'
 import Gallery from './components/Gallery/Gallery'
 import FindUs from './components/FindUs/FindUs'
+import Footer from './components/Footer/Footer'
 
 import './App.css'
 
@@ -23,6 +24,7 @@ const App = () => {
       <Reviews />
       <Gallery />
       <FindUs />
+      <Footer />
     </>
   )
 }
