@@ -13,3 +13,108 @@
     background: black;
     padding: 4rem 0;
 }
+
+.app__footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+
+    margin-top: 5rem;
+    padding: 0 2rem;
+}
+
+.app__footer-links_contact,
+.app__footer-links_logo,
+.app__footer-links_work {
+    flex: 1;
+    margin: 1rem;
+    text-align: center;
+}
+
+.app__footer-links_work p:nth-child(2n + 1) {
+    margin-bottom: 1rem;
+}
+
+.app__footer-links_icons {
+    margin-top: 0.5rem;
+}
+
+.app__footer-links_icons svg {
+    color: white;
+    margin: 0.5rem;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.app__footer-links_icons svg:hover {
+    color: #F0A202;
+}
+
+.footer__copyright {
+    margin-top: 3rem;
+}
+
+.copyright-p, .contact-p, .grubcabin-p, .work-p {
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.app__footer-title {
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #F0A202;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-size: 32px;
+    line-height: 41.6px;
+    margin-bottom: 1rem;
+}
+
+.grubcabin-logo {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 2000px) {
+    .app__footer-title {
+        font-size: 51px;
+        line-height: 61.6px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__footer-links {
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .app__footer-links_contact,
+    .app__footer-links_logo,
+    .app__footer-links_work {
+        margin: 2rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    .app__footer-links {
+        margin-top: 1rem;
+    }
+    .app__footer-links_contact,
+    .app__footer-links_logo,
+    .app__footer-links_work {
+        padding: 0 3rem;
+        width: unset;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__footer {
+        padding: 0 0 2rem 0;
+    }
+}
